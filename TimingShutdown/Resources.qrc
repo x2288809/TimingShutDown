@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/MainWindow/checkbox_hightlight.png</file>
+        <file>Resources/MainWindow/checkbox_normal.png</file>
+        <file>Resources/MainWindow/checkbox_tick_highlight.png</file>
+        <file>Resources/MainWindow/checkbox_tick_normal.png</file>
+        <file>Resources/QSS/Mainwindow.css</file>
+        <file>icon.ico</file>
+        <file>Resources/MainWindow/background.png</file>
+        <file>Resources/MainWindow/Title/close.png</file>
+        <file>Resources/MainWindow/Title/max.png</file>
+        <file>Resources/MainWindow/Title/min.png</file>
+        <file>Resources/MainWindow/Title/restore.png</file>
+        <file>Resources/MainWindow/icon.png</file>
+    </qresource>
+</RCC>

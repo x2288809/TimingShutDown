@@ -1,0 +1,117 @@
+* {
+    font-family: Microsoft YaHei;
+}
+
+QWidget#titleWidget
+{
+    background-color:#FFCC33;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+/*标题栏按钮*/
+QPushButton#titleIcon
+{
+    border-image:url(:Resources/MainWindow/icon.png);
+}
+
+/*标题栏名称*/
+QLabel#titleTextLabel{
+	color:#181DE4;
+	font-size:14px;
+}
+
+/*状态栏*/
+QStatusBar#statusBar
+{
+    background-color:#FEFAEF;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	box-shadow: 0px -3px 10px rgba(255, 255, 255, 0.5);
+}
+/*关闭按钮*/
+QPushButton#ButtonClose
+{
+    border-image:url(:Resources/MainWindow/Title/close.png) 0 81 0 0 ;
+    border-top-right-radius:4 ;
+}
+
+QPushButton#ButtonClose:hover
+{
+    border-image:url(:Resources/MainWindow/Title/close.png) 0 54 0 27 ;
+    border-top-right-radius:4 ;
+}
+
+QPushButton#ButtonClose:pressed
+{
+    border-image:url(:Resources/MainWindow/Title/close.png) 0 27 0 54 ;
+    border-top-right-radius:4 ;
+}
+
+QWidget#centralwidget
+{
+    background:transparent;
+	border-image: url(":/Resources/MainWindow/background.png");
+    border-radius:0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+QWidget#timeDateWidget
+{
+    background:transparent;
+	border-radius:4px;
+}
+
+QPushButton#startBtn{
+	font-size:14px;
+	background:rgb(7, 189, 253);
+	color:#ffffff;
+	border:none;
+	border-radius:4px;
+}
+
+QPushButton#startBtn:hover, QPushButton#startBtn:pressed{
+	background:rgb(33, 200, 253);
+}
+
+QCheckBox{
+    spacing: 5px;
+	font-size: 12px;
+	color: #666666;
+	background-color:transparent;
+}
+
+QCheckBox::dateBox:enabled,QCheckBox::automaticStartBox:enabled, QCheckBox::automaticStartBox:enabled:unchecked, QCheckBox::dateBox:enabled:unchecked{  
+    width:15px;
+	height:15px; 
+    border-image: url(:/Resources/MainWindow/checkbox_normal.png);
+}
+
+QCheckBox::dateBox:enabled:unchecked:hover, QCheckBox::automaticStartBox:unchecked:hover {
+    image: url(:/Resources/MainWindow/checkbox_hightlight.png);	
+}
+
+QCheckBox::dateBox:enabled:checked, QCheckBox::automaticStartBox:enabled:checked { 
+    border-image: url(:/Resources/MainWindow/checkbox_tick_normal.png);
+}
+
+QCheckBox::dateBox:enabled:checked:hover, QCheckBox::automaticStartBox:enabled:checked:hover { 
+    border-image: url(:/Resources/MainWindow/checkbox_tick_highlight.png);
+}
+
+QDateEdit#dateEdit, QTimeEdit#timeEdit{
+	background: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
+
+QDateEdit#dateEdit:hover, QTimeEdit#timeEdit:hover{
+	background: #FFFFFF;
+	border: 1px solid rgb(0, 161, 219);
+	border-radius: 2px;
+	font-size: 14px;
+	color: #666666;
+}
