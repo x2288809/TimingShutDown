@@ -1,6 +1,6 @@
 # TimingShutDown
 学习QT基础后，用QT写的一个定时关机程序。
-因为关机操作用的是WINDOWS的关机指令，所以仅适用于WINDOWS，需要安装WINDOWS程序运行库，目前在几台WIN10和WIN7上测试都没问题。
+因为关机操作用的是WINDOWS的关机指令，所以仅适用于WINDOWS，需要安装WINDOWS程序运行库。
 
 ## 开发环境
 - QT：5.14.2
